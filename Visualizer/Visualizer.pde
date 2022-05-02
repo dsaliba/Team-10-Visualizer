@@ -16,9 +16,9 @@ int tbW = 500;
 int tbH = 100;
 int mask = -1;
 
-String team = "team10";
-String user = "group10";
-String pass = "amager532";
+String team;
+String user;
+String pass;
 
 
 
@@ -43,9 +43,7 @@ void setup() {
   changeSize(parseInt(lines[3]));
   client = new MQTTClient(this);
   client.connect("mqtt://"+team+":"+pass+"@robomqtt.cs.wpi.edu", user);
-  //client.connect("mqtt://team12:saltholm989@robomqtt.cs.wpi.edu", "group12");
   size(1050, 1050);
-  //size(448, 448);
   ding = new SoundFile(this, "ding.mp3");
 }
 
