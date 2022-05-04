@@ -30,4 +30,5 @@ This program is written in [Proccessing](https://processing.org/). Once you have
 | b | Blur |
 | t | Show grid numbers |
 | m | Apply mask to data (use a mask of -1 to remove mask |
+| w | Wipes the grid back to all 0s |
 
